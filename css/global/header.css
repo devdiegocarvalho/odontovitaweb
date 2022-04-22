@@ -15,7 +15,7 @@
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  /* gap: 40px; */
   text-transform: uppercase;
 }
 
@@ -23,6 +23,7 @@
   padding: 16px 0;
   display: inline-block;
   position: relative;
+  margin-left: 40px;
 }
 
 .header-menu a::after {
@@ -52,6 +53,7 @@
   .header-menu a {
     background-color: var(--cor-t4);
     padding: 12px 16px;
+    margin-left: 10px;
     border-radius: 4px;
     transition: all 0.2s;
   }
@@ -73,6 +75,7 @@
   .header-menu a {
     padding: 8px 12px;
     font-size: 0.875rem;
+    margin-left: 1px;
   }
 
   .header a img {
