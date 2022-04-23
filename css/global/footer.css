@@ -1,0 +1,32 @@
+.bg-footer {
+  background-color: #cccccc;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 90px 20px 70px 20px;
+}
+
+.footer-redes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+svg.instagram :hover {
+  fill: #f16e8f;
+  transition: all 0.3s;
+}
+
+svg.facebook :hover {
+  fill: #3872be;
+  transition: all 0.3s;
+}
+
+.footer-endereco p {
+  text-align: center;
+  font-weight: 400;
+}
