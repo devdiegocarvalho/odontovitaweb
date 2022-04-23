@@ -1,0 +1,23 @@
+.agendamento-bg {
+  background: url("../../img/bg-home-agende.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.agendamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 150px 20px 150px 20px;
+}
+
+.agendamento h3 {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .agendamento-bg {
+    background: url("../../img/bg-home-agende-m.jpg") no-repeat center top;
+    /* background-size: cover; */
+  }
+}

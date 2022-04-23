@@ -10,3 +10,13 @@
 .borda {
   border: 1px solid red;
 }
+
+.button {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 12px 40px;
+  cursor: pointer;
+}
