@@ -8,6 +8,12 @@
   padding: 170px 20px 170px 20px;
 }
 
+#sobre .intro {
+  background: url(../../img/sobre-bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .intro p {
   text-transform: uppercase;
   margin-bottom: 15px;
